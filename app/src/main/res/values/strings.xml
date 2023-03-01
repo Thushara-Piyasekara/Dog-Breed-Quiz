@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dog Breed Quiz</string>
+    <string name="some_dog">some_dog</string>
+    <string name="next_dogs">Next Dogs</string>
+    <string name="random_dog_breed">Random Dog Breed</string>
+    <string name="finish">Finish</string>
+    <string name="incorrect_count">Incorrect Count :</string>
+    <string name="correct_count">Correct Count :</string>
+</resources>

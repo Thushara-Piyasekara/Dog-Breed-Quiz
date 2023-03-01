@@ -1,0 +1,75 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/next_butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/next_dogs"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.219"/>
+
+    <Button
+            android:id="@+id/finish_butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/finish"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.767"/>
+
+    <TextView
+            android:id="@+id/breed_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/random_dog_breed"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="29dp"
+            app:layout_constraintHorizontal_bias="0.497"
+            tools:ignore="MissingConstraints" />
+
+    <ImageButton
+            android:id="@+id/dog1"
+            android:layout_width="202dp"
+            android:layout_height="166dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="88dp"
+            android:layout_marginEnd="104dp"
+            android:contentDescription="@string/some_dog"
+            android:scaleType="fitCenter"/>
+
+    <ImageButton
+            android:id="@+id/dog3"
+            android:layout_width="202dp"
+            android:layout_height="166dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="104dp"
+            android:layout_marginBottom="472dp"
+            android:contentDescription="@string/some_dog"
+            android:scaleType="fitCenter"/>
+
+    <ImageButton
+            android:id="@+id/dog2"
+            android:layout_width="202dp"
+            android:layout_height="166dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="104dp"
+            android:layout_marginBottom="280dp"
+            android:contentDescription="@string/some_dog"
+            android:scaleType="fitCenter"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
