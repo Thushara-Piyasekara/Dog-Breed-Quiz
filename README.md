@@ -4,11 +4,11 @@ A dog breed quiz android application developed with kotlin. User can play the qu
 ## Screenshots
 <table>
    <tr>
-    <td> <img src="screenshots/Screenshot  1.png"  alt="1" width = 360px></td>
-    <td><img src="screenshots/Screenshot  2.png" alt="2" width = 360px></td>
+    <td> <img src="screenshots/Screenshot 1.png"  alt="1" width = 360px></td>
+    <td><img src="screenshots/Screenshot 2.png" alt="2" width = 360px></td>
    </tr> 
    <tr>
-      <td><img src="screenshots/Screenshot  3.png" alt="3" width = 360px></td>
+      <td><img src="screenshots/Screenshot 3.png" alt="3" width = 360px></td>
 </table>
 
 
